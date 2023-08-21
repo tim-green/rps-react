@@ -11,6 +11,10 @@ import Options from "./components/Options/Options";
 import Footer from "./components/Footer/Footer";
 import Picks from "./components/Picks/Picks";
 import Overlay from "./components/Overlay/Overlay";
+
+// import media.scss
+import "./media.scss";
+
 function App() {
   return (
     <div className="App">
