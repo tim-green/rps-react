@@ -1,6 +1,8 @@
 {
   "name": "rock-paper-scissors",
   "version": "0.1.0",
+  "homepage": "http://rps.timgreen.xyz/",
+  "url": "https://github.com/tim-green/rps-react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -11,6 +13,9 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "sass": "^1.66.1"
+	},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
