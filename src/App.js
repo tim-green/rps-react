@@ -15,6 +15,10 @@ import Overlay from "./components/Overlay/Overlay";
 // import media.scss
 import "./media.scss";
 
+// import game context
+import GameContext from "./context/GameContext";
+
+// Function App
 function App() {
   return (
     <div className="App">
