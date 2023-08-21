@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 /* Import font from assets */
 @font-face {
     font-family: 'Nuform-Sans';
@@ -9,37 +6,47 @@
     font-weight: normal;
     font-style: normal;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+@font-face {
+    font-family: 'Ozik';
+    src: url('../src/assets/fonts/ozik/ozik-regular-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/ozik/ozik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+:root{
+  /* Colours */
+  --rock: #ff3b00;
+	--rock-dark: #970909;
+	--paper: #6982ff;
+	--paper-dark: #2e4de8;
+	--scissors: #ffb01e;
+	--scissors-dark: #ad590f;
+	--white: #f3f3f3;
+	--gray: #2d334d;
+	--blue: #2140ca;
+	--deep-blue: #003ce6;
+	--dark-blue: #002da9;
+	--red: #ff3b00;
+
+  /* Borders */
+	--border-radius: 5px;
+	--border-radius-big: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nuform-Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--deep-blue);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*, *::before, *::after {
+  user-select: none;
+  box-sizing: border-box;
 }
